@@ -1,8 +1,8 @@
 let stringPontuacoes = "30, 40, 20, 4, 51, 25, 42, 38, 56, 0"
  
  
-function avaliaPontuacoes (stringPontuacoes) {
-    let pontuacoes = stringPontuacoes.split(", ")
+function avaliaPontuacoes (param) {
+    let pontuacoes = param.split(", ")
     let qtdQuebraDeRecords = 0
     let piorJogo = 1
     let maiorPontuacao = pontuacoes[0]
