@@ -8,7 +8,7 @@ const volvo = {
     velMax: 200
 }
 
-console.log(ferrari.__proto__)
+console.log(ferrari.__proto__)//acesso ao prototipo pai
 console.log(ferrari.prototype)//undefined
 console.log();
 console.log(ferrari.__proto__ === Object.prototype)
