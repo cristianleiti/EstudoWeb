@@ -29,14 +29,14 @@ const ferrari = {
 const volvo = {
     modelo: "V40",
     status(){
-        return `${this.modelo}: ${super.status()}`
+        return `${this.modelo}: ${super.status()}`// o this é de forma recursiva enquanto que o super pode pegar o método do prototipo (ou seja o pai) 
     }
  }
     
- Object.setPrototypeOf(ferrari,carro)
+ Object.setPrototypeOf(ferrari,carro)// estabelece uma relação entre os dois, ou seja ferrari tem carro como prototipo
  Object.setPrototypeOf(volvo, carro)
 
- console.log(ferrari)
+ console.log(ferrari)//toString vai ler os atributos e funções que pertence ao objeto
  console.log(volvo)
 
  volvo.acelerarMais(100)
