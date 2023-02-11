@@ -7,4 +7,10 @@ const alunos = [
 
 //Desafio 1: Todos os alunos são bolsista?
 
+const todosBolsa = alunos.map(a=>a.bolsista).reduce((acumula, atual)=> acumula && atual)
+console.log(todosBolsa);
+
 //Desafio2: Algum aluno é bolsista?
+
+const umBolsa = alunos.map(a=>a.bolsista).reduce((acu, atu)=> acu || atu)
+console.log(umBolsa);
