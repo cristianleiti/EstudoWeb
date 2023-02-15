@@ -13,4 +13,10 @@ fs.readFile(caminho, 'utf-8', (err, conteudo) => {
 })
 
 const config = require('./arquivo.json')
-console.log(config.db);
+console.log(config.db)
+
+fs.readdir(__dirname, (err, arquivos)=>{//__dirname é uma constante que esta presente em todos arquivos do node
+    console.log('Conteúdo da pasta...');
+    console.log(arquivos);
+})
+console.log(__dirname);
