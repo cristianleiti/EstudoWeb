@@ -1,8 +1,8 @@
 var a = 3
 let b = 4
 
-var a = 30// pode declarar o tipo de variável mais de uma vez
-b = 40
+var a = 30//o var pode declarar o tipo de variável mais de uma vez
+/*let já não pode*/b = 40
 
 console.log(a, b)
 
