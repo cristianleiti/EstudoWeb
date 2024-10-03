@@ -1,5 +1,5 @@
 let valor // não inicializada
-console.log(valor)
+console.log(valor) // undefined
 
 valor = null // ausência de valor
 console.log(valor)
