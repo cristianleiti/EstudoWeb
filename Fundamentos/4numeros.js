@@ -20,7 +20,7 @@ console.log("")
 console.log(total)
 console.log(media)
 console.log(media.toFixed(2)) 
-console.log(media.toString(2))
-console.log(media.toString(10)) //em decimal, mas pode ser binário, hexadecimal...
+console.log(media.toString(2)) // binário
+console.log(media.toString(10)) // em decimal, mas pode ser binário, hexadecimal...
 console.log(typeof media)
-console.log(typeof Number)//Number com 'N' maiúsculo é uma função diferente do number com minúsculo
+console.log(typeof Number)// Number com 'N' maiúsculo é uma função diferente do number com minúsculo
