@@ -1,4 +1,4 @@
-let qualquer = 'Legal'
+let qualquer = 'Legal cara de mau mau'
 console.log(qualquer)
 console.log(qualquer, 'esta variavel é do tipo', typeof qualquer)
 
