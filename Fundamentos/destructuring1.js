@@ -2,7 +2,7 @@ const pessoa ={
     nome: 'Ana',
     idade: 5,
     endereco:{
-        logradouro: 'Rua ABCD',
+        logradouro: 'Rua AD',
         numero: 1000
     }  
 }
